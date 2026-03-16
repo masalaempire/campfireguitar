@@ -373,8 +373,8 @@ export default function App() {
             </div>
             <input
               type="range"
-              min={8}
-              max={40}
+              min={4}
+              max={30}
               step={1}
               value={stringSpacing}
               onChange={(e) => setStringSpacing(Number(e.target.value))}
